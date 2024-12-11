@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: 'Montseratt';
+  src: url('/my-app/src/fonts/Montseratt/static/Montserrat-Regular.ttf');
+  font-weight: 400;
+}
+.container{
+  max-width: 1520px;
+  margin: 0 auto;
+}
