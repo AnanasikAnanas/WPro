@@ -6,7 +6,7 @@ function NavLink ({text}) {
 
 export default function Header(){
     return(
-        <header className="h-24 flex items-center container justify-around">
+        <header className="h-24 flex items-center container justify-between">
             <a href="#" className="font-extrabold text-5xl">WPro</a>
             <nav className="flex gap-8 items-center font-medium text-3xl">
                 <NavLink text={"Products"}/>
